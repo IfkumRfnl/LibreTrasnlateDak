@@ -118,21 +118,21 @@
           </div>
 					<form id="translation-form" class="col s12">
 						<div class="row mb-0">
-							<div class="col s6 language-select">
+							<div class="col s6 language-select" style = "color: white">
 								<span>Translate from</span>
-								<select class="browser-default" v-model="sourceLang" ref="sourceLangDropdown" @change="handleInput">
+								<select style = "color: white; background-color: #121212" class="browser-default" v-model="sourceLang" ref="sourceLangDropdown" @change="handleInput">
 									<template v-for="option in langs">
 										<option :value="option.code">[[ option.name ]]</option>
 									</template>
 								</select>
 							</div>
 
-							<div class="col s6 language-select">
+							<div style = "color: white" class="col s6 language-select">
 								<a href="javascript:void(0)" @click="swapLangs" class="btn-switch-language">
 									<i class="material-icons">swap_horiz</i>
 								</a>
 								<span>Translate into</span>
-								<select class="browser-default" v-model="targetLang" ref="targetLangDropdown" @change="handleInput">
+								<select style = "color: white; background-color: #121212" class="browser-default" v-model="targetLang" ref="targetLangDropdown" @change="handleInput">
 									<template v-for="option in langs">
 										<option v-if="option.code !== 'auto'" :value="option.code">[[ option.name ]]</option>
 									</template>
