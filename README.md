@@ -6,7 +6,7 @@
 
 Free and Open Source Machine Translation API, entirely self-hosted. Unlike other APIs, it doesn't rely on proprietary providers such as Google or Azure to perform translations. Instead, its translation engine is powered by the open source [Argos Translate][argo] library.
 
-![image](https://user-images.githubusercontent.com/64697405/139015751-279f31ac-36f1-4950-9ea7-87e76bf65f51.png)
+![image](https://user-images.githubusercontent.com/63595916/148636944-d978b917-2a1e-4be7-9ddd-5dbed18e02e8.png)
 
 
 [Try it online!](https://libretranslate-fzoby.run-eu-central1.goorm.io/) | [API Docs](https://libretranslate-fzoby.run-eu-central1.goorm.io/)
