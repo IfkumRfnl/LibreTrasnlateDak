@@ -9,7 +9,7 @@ Free and Open Source Machine Translation API, entirely self-hosted. Unlike other
 ![image](https://user-images.githubusercontent.com/64697405/139015751-279f31ac-36f1-4950-9ea7-87e76bf65f51.png)
 
 
-[Try it online!](https://libretranslate.com) | [API Docs](https://libretranslate.com/docs)
+[Try it online!](https://libretranslate-fzoby.run-eu-central1.goorm.io/) | [API Docs](https://libretranslate-fzoby.run-eu-central1.goorm.io/)
 
 ## API Examples
 
